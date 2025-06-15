@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(135deg, #13b937, #FEB47B); /* warm orange gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.login {
+  background: #b8a017; /* vibrant orange */
+  width: 450px;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(255, 111, 0, 0.5);
+  text-align: center;
+}
+
+.login h1 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  width: 100%;
+  padding: 14px 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 90px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+  box-shadow: 0 0 8px 2px #ff2626; /* glowing orange */
+}
+
+.btn {
+  background-color: #FF9800;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 0;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(255, 152, 0, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ca1164;
+}
+
