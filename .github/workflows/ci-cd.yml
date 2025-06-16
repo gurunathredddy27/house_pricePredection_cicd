@@ -43,7 +43,7 @@ jobs:
 
   # ----------------------------------------
   # ✅ JOB 2: DOCKER BUILD & PUSH TO DOCKERHUB
-  # ----------------------------------------
+
   docker-build-and-push:
     needs: build-and-test  # This runs ONLY IF tests passed
     runs-on: ubuntu-latest
